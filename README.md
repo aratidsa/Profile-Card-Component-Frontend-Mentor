@@ -28,7 +28,7 @@ In this small project, build out this Profile-Card-Component and get it looking 
 ### Links
 
 - Solution URL: https://github.com/aratidsa/Profile-Card-Component-Frontend-Mentor
-- Live Site URL: 
+- Live Site URL: https://profile-card-component-card-design.netlify.app/
 
 ## My process
 
