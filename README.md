@@ -15,14 +15,14 @@ This is a solution to the [Profile-Card-Component challenge on Frontend Mentor](
 ## Overview
 
 ### The challenge
-In this small project, build out this Profile-Card-Component and get it looking as close to the design as possible.Users should be able to:
-- See hover states for all interactive elements on the page
+In this small project, build out this Profile-Card-Component and get it looking as close to the design as possible.
 
 ### Screenshot
 - Desktop
-
+![Screenshot 2024-03-08 170626](https://github.com/aratidsa/Profile-Card-Component-Frontend-Mentor/assets/128802362/11884d34-5b94-4d3a-9d8d-e5f60671dfea)
   
 - Mobile  
+![Screenshot 2024-03-08 170813](https://github.com/aratidsa/Profile-Card-Component-Frontend-Mentor/assets/128802362/06eee6be-c516-47a9-a188-3be3bedf4509)
 
 
 ### Links
