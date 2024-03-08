@@ -1,0 +1,217 @@
+/* RESET */
+html,body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img
+{
+    max-width: 100%;
+    display: block;
+}
+button
+{
+    font: inherit;
+}
+
+/* CUSTOM PROPERTIES */
+:root
+{
+    /* COLOR */
+    --clr-dark-cyan: hsl(185, 75%, 39%);
+    --clr-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --clr-dark-grayish-blue: hsl(227, 10%, 46%);
+    --clr-dark-gray: hsl(0, 0%, 59%);
+    --clr-white:hsl(0, 0%, 100%);
+
+    /* FONT SIZe */
+    --fs-18:1.13rem;
+
+    /* FONT FAMILY */
+    --ff-kumbh-sans:"Kumbh Sans", sans-serif;
+
+    /* FONT WEIGHT */
+    --fw-400:400;
+    --fw-700:700;
+}
+
+/* BODY */
+body{
+    font-size:var(--fs-18);
+    font-family:var(--ff-kumbh-sans);
+    font-weight: var(--fw-400);
+    line-height: 1.6;
+    background-color: var(--clr-dark-cyan);
+    color:var(--clr-very-dark-desaturated-blue);
+}
+/* Main */
+main
+{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+/* Container */
+.container
+{
+    width:21.88rem;
+    height:23.44rem;
+    margin-top:-17.19rem;
+    border-radius: 0.94rem;
+    background-color: var(--clr-white);
+    z-index:1;
+}
+/* Top Image */
+.img-top
+{
+    margin-top:-33.13rem;
+    margin-left:-14.38rem;
+}
+/* Bottom Image */
+.img-bottom
+{
+    margin-top:-50.31rem;
+    margin-left:46.25rem;
+    z-index:0;
+}
+/* Top Card Picture */
+.top-card-pic
+{
+    border-top-left-radius: 0.94rem;
+    border-top-right-radius: 0.94rem;
+    position:relative;
+}
+/* Person's Image */
+.person-img
+{
+    margin-left:7.5rem;
+    border-radius:50%;
+    border:0.31rem solid var(--clr-white);
+    margin-top:-3.44rem;
+    position:absolute;
+}
+/* Personal Details */
+.details
+{
+    margin-top:4.38rem;    
+}
+.name
+{
+    font-weight: var(--fw-700);
+    margin-top:-0.31rem;
+}
+.age
+{
+    color:var(--clr-dark-gray);
+    font-weight: var(--fw-700);
+    margin-left:0.31rem;
+}
+.place
+{
+    font-size: 0.94rem;
+    margin-top:-1rem;
+    font-weight:normal;
+    color:var(--clr-dark-gray);
+    font-weight: var(--fw-700);
+}
+
+/* Horizontal Bar */
+hr
+{
+    height:0.031rem;
+    background-color:hsl(0, 2%, 80%);
+    outline:none;
+    border:none;
+    margin-top:1.25rem;
+}
+
+/* Social Media */
+.social-media-grid
+{
+    margin-top:-0.31rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 2.19rem 2.19rem;   
+    padding-left:1.56rem;
+    padding-right:1.88rem;
+}
+
+.social-fig
+{
+    font-weight: var(--fw-700);
+}
+
+.social-fig-name
+{
+    font-size:0.63rem;
+    letter-spacing: 0.06rem;
+    color:var(--clr-dark-gray);
+}
+
+/* Footer */
+footer{
+    font-size:0.75rem;
+    margin-top:-46.88rem;
+    text-align: center;
+    font-weight: var(--fw-700);
+}
+
+.attribuition a{
+    color:hsl(0, 100%, 25%);
+}
+
+/* Mobile Screen */
+@media only screen and (max-width:375px), (max-device-width: 375px) {
+    /* Container */
+    .container
+   {
+    width:20rem;
+    height:22.5rem;
+    margin-top:-3.44rem;
+    z-index:1;
+    margin-right:0.94rem;
+   }
+
+   /* Top Image */
+   .img-top
+  {
+    margin-top:-11.25rem;
+    margin-left:-10rem;
+    z-index:0;
+   }
+
+   /* Bottom Image */
+   .bottom-image
+  {
+    width:50rem;
+  }
+  /* Bottom Image */
+   .img-bottom
+  {
+    margin-top:-33.44rem;
+    margin-left:10rem;
+    z-index:0;
+  }
+  /* Social Media */
+   .social-media-grid
+  { 
+    margin-top:-0.31rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 2.19rem 2.19rem;   
+    padding-left:0.63rem;
+    padding-right:1.88rem;
+  }
+  /* Footer */
+   footer
+ {
+    font-size:0.75rem;
+    margin-top:-34.38rem;
+    text-align: center;
+    font-weight: var(--fw-700);
+ }   
+}
